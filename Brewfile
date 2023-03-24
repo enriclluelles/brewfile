@@ -1,6 +1,6 @@
 tap 'homebrew/cask'
 
-cask_args appdir: '~/Applications', require_sha: true
+cask_args appdir: '~/Applications', require_sha: false
 
 cask '1password'
 cask 'alacritty'
@@ -10,6 +10,7 @@ cask 'discord'
 cask 'docker'
 cask 'goland'
 cask 'google-chrome'
+cask 'gpg-suite'
 cask 'hammerspoon'
 cask 'iterm2'
 cask 'karabiner-elements'
@@ -23,6 +24,7 @@ cask 'telegram'
 cask 'vlc'
 cask 'whatsapp'
 cask 'zoom'
+cask 'keeper-password-manager'
 
 tap 'homebrew/cask-fonts'
 
@@ -60,3 +62,4 @@ brew 'tig'
 brew 'tmux'
 brew 'watchman'
 brew 'zstd'
+brew 'ykman'
