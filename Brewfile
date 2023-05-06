@@ -2,6 +2,7 @@ tap 'homebrew/cask'
 
 cask_args appdir: '~/Applications', require_sha: false
 
+cask 'kindle-comic-creator'
 cask '1password'
 cask 'alacritty'
 cask 'authy'
@@ -63,3 +64,6 @@ brew 'tmux'
 brew 'watchman'
 brew 'zstd'
 brew 'ykman'
+brew 'kind'
+brew 'clusterctl'
+brew 'helm'
