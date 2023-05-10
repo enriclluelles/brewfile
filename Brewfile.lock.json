@@ -1981,6 +1981,50 @@
       "fluxcd/tap/flux@0.41": {
         "version": "0.41.2",
         "bottle": false
+      },
+      "terraform-ls": {
+        "version": "0.31.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424",
+              "sha256": "3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424",
+              "sha256": "3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424",
+              "sha256": "3997a7f4117936e68e97cfcefc1419d3f9797d887959431cd7cfc953f9975424"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585",
+              "sha256": "8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585",
+              "sha256": "8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585",
+              "sha256": "8008144db461881e4547c5f07488fe711b4219be22cbe16966075912ae374585"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform-ls/blobs/sha256:25d0e4f4bf5f1a97d21f643ddde4fcb1cd956eb124a01506ed82aa5751e7a2f6",
+              "sha256": "25d0e4f4bf5f1a97d21f643ddde4fcb1cd956eb124a01506ed82aa5751e7a2f6"
+            }
+          }
+        }
       }
     }
   },
